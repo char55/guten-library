@@ -1,0 +1,24 @@
+{
+  "name": "guten-library",
+  "version": "1.0.0",
+  "description": "Allows users to connect to gutendex, save a list of desired books, and reserve it to their local library",
+  "main": "app.js",
+  "license": "MIT",
+  "author": "Charlotte Haras",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "jest --no-cache"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.2.4"
+  }
+}
